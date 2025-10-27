@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import profileImg from '../assets/profile.jpeg';
+import profileImg from '../assets/profile.webp';
 
 const Home = () => {
   return (
