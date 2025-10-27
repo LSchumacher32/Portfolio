@@ -6,7 +6,7 @@ import profileImg from '../assets/profile.webp';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-slate-900'>
+    <div name='home' className='w-full h-screen bg-slate-900 pt-20'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row gap-8'>
         
         {/* Profilbild */}
