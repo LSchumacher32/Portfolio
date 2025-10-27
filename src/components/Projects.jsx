@@ -26,6 +26,14 @@ const Projects = () => {
       github: 'https://github.com/LSchumacher32/Swooper',
       demo: '#',
     },
+    {
+      id: 4,
+      title: 'Mein Portfolio',
+      description: 'Modernes, responsives Portfolio mit React und Vite',
+      tech: ['React', 'Vite', 'TailwindCSS', 'Web3Forms'],
+      github: 'https://github.com/LSchumacher32/Portfolio',
+      demo: 'https://leon-schumacher.vercel.app',
+    },
   ];
 
   return (
