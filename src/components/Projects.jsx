@@ -4,11 +4,11 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Cryptify',
-      description: 'Eine Website zur Ver- und Entschlüsselung von Texten',
+      title: 'QR-Code Generator',
+      description: 'Einfacher QR-Code-Generator für Links und Texte',
       tech: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/LSchumacher32/Cryptify',
-      demo: 'https://lschumacher32.github.io/Cryptify',
+      github: 'https://github.com/LSchumacher32/QRCode-Generator',
+      demo: 'https://lschumacher32.github.io/QRCode-Generator/',
     },
     {
       id: 2,
