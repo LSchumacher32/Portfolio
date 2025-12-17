@@ -12,11 +12,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'QR-Code Generator',
-      description: 'Dynamischer QR-Code Generator mit modernem Design',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/LSchumacher32/QRCode-Generator',
-      demo: 'https://lschumacher32.github.io/QRCode-Generator',
+      title: 'BMI-Tracker',
+      description: 'BMI-Tool, das deine Ergebnisse protokolliert',
+      tech: ['Java'],
+      github: 'https://github.com/LSchumacher32/BMI',
+      demo: '#',
     },
     {
       id: 3,
