@@ -20,10 +20,10 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: 'Swooper',
-      description: 'Eine etwas "andere" Version von Minesweeper',
+      title: 'InventarApp',
+      description: 'Konsolen-App zur Inventarverwaltung mit Suche, Sortierung sowie CSV-Speichern und -Laden.',
       tech: ['Java'],
-      github: 'https://github.com/LSchumacher32/Swooper',
+      github: 'https://github.com/LSchumacher32/InventarApp',
       demo: '#',
     },
     {
