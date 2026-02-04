@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div>
             <p className='text-lg'>
-              Ich bin 24 Jahre alt und befinde mich aktuell in einer Umschulung zum 
+              Ich bin 25 Jahre alt und befinde mich aktuell in einer Umschulung zum 
               Fachinformatiker für Anwendungsentwicklung. Meine Leidenschaft gilt der 
               Softwareentwicklung, besonders in den Bereichen Webentwicklung und 
               Game Development.
