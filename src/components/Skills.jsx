@@ -28,7 +28,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8'>
+        <div className='w-full grid grid-cols-3 gap-8 text-center py-8'>
           {skills.map((skill) => (
             <div 
               key={skill.id} 
