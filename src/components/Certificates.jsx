@@ -12,10 +12,10 @@ const Certificates = () => {
     },
     {
       id: 2,
-      title: 'HTML, CSS, and Javascript for Web Developers',
-      institution: 'Johns Hopkins University',
-      platform: 'Coursera',
-      year: '2025',
+      title: 'Fachmann für Projektmanagement',
+      institution: 'DEKRA',
+      platform: 'DEKRA Certification GmbH',
+      year: '2026',
     },
   ];
 
