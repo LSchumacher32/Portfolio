@@ -13,7 +13,7 @@ const Skills = () => {
     { id: 6, name: 'Java', icon: <FaJava size={50} />, color: 'text-red-600' },
     { id: 7, name: 'Python', icon: <FaPython size={50} />, color: 'text-blue-400' },
     { id: 8, name: 'C#', icon: <TbBrandCSharp size={50} />, color: 'text-purple-500' },
-    { id: 9, name: 'SQL', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
+    { id: 9, name: 'MariaDB', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
   ];
 
   return (
