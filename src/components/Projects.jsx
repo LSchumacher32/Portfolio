@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'UserManagementAPI',
+      title: 'UserManagement-API',
       description: 'Benutzerverwaltung mit CRUD-Endpunkten, Eingabevalidierung und zentraler Fehlerbehandlung.',
       tech: ['C#', 'ASP.NET Core', 'Swagger'],
       github: 'https://github.com/LSchumacher32/UserManagementAPI',
@@ -12,6 +12,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: 'StockPilot-API',
+      description: 'Lagerverwaltung mit Produkten, Kategorien und Lieferanten. CRUD-Endpunkte, Filter, Sortierung, Suche, Validierung und automatisches Seeding mit EF Core und SQLite.',
+      tech: ['C#', 'ASP.NET Core', 'EF Core', 'SQLite', 'Swagger'],
+      github: 'https://github.com/LSchumacher32/stockpilot-api',
+      demo: '#',
+    },
+    {
+      id: 3,
       title: 'Mein Portfolio',
       description: 'Modernes, responsives Portfolio mit React und Vite',
       tech: ['React', 'Vite', 'TailwindCSS', 'Web3Forms'],
