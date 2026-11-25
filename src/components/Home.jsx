@@ -21,15 +21,15 @@ const Home = () => {
         {/* Text Content */}
         <div className='flex flex-col justify-center md:order-1 text-center md:text-left'>
           <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-            Hallo, ich bin Leon
+            Leon Schumacher
           </h2>
           <p className='text-cyan-500 text-2xl sm:text-3xl font-bold mt-4'>
-            Fachinformatiker für Anwendungsentwicklung
+            Anwendungsentwicklung mit C# und .NET
           </p>
           <p className='text-gray-400 py-4 max-w-md mx-auto md:mx-0'>
-            Ich befinde mich in einer Umschulung zum Fachinformatiker für Anwendungsentwicklung 
-            und bin motiviert, lernbereit und zielorientiert. Aktuell suche ich ein Praktikum 
-            im Raum Minden, um meine Kenntnisse in der Praxis anzuwenden.
+            Aktuell in der Umschulung zum Fachinformatiker für
+            Anwendungsentwicklung. Hier zeige ich meine Projekte rund
+            um Webanwendungen, APIs und Spieleentwicklung.
           </p>
 
           <div className='flex py-4 gap-4 justify-center md:justify-start'>
