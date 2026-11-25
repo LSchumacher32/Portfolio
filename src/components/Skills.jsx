@@ -5,16 +5,14 @@ import { TbBrandCSharp } from 'react-icons/tb';
 
 const Skills = () => {
   const skills = [
-    { id: 1, name: 'HTML', icon: <FaHtml5 size={50} />, color: 'text-orange-500' },
-    { id: 2, name: 'CSS', icon: <FaCss3Alt size={50} />, color: 'text-blue-500' },
-    { id: 3, name: 'JavaScript', icon: <FaJs size={50} />, color: 'text-yellow-400' },
-    { id: 4, name: 'React', icon: <FaReact size={50} />, color: 'text-cyan-400' },
-    { id: 5, name: 'TailwindCSS', icon: <SiTailwindcss size={50} />, color: 'text-cyan-500' },
-    { id: 6, name: 'Java', icon: <FaJava size={50} />, color: 'text-red-600' },
-    { id: 7, name: 'Python', icon: <FaPython size={50} />, color: 'text-blue-400' },
-    { id: 8, name: 'C#', icon: <TbBrandCSharp size={50} />, color: 'text-purple-500' },
-    { id: 9, name: 'MariaDB', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
-  ];
+  { id: 1, name: 'C#', icon: <TbBrandCSharp size={50} />, color: 'text-purple-500' },
+  { id: 2, name: '.NET / ASP.NET Core', icon: <SiDotnet size={50} />, color: 'text-violet-500' },
+  { id: 3, name: 'Entity Framework Core', icon: <FaDatabase size={50} />, color: 'text-purple-400' },
+  { id: 4, name: 'SQL Server / SQLite', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
+  { id: 5, name: 'REST APIs', icon: <FaServer size={50} />, color: 'text-emerald-500' },
+  { id: 6, name: 'HTML', icon: <FaHtml5 size={50} />, color: 'text-orange-500' },
+  { id: 7, name: 'CSS', icon: <FaCss3Alt size={50} />, color: 'text-blue-500' },
+];
 
   return (
     <div name='skills' className='w-full min-h-screen bg-slate-900 text-gray-300'>
