@@ -15,22 +15,21 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
           <div className='sm:text-right text-4xl font-bold'>
             <p>
-              Hallo, ich bin Leon Schumacher. 
-              Schön, dass du hier bist!
+              Ich bin Leon Schumacher, angehender Fachinformatiker für Anwendungsentwicklung.
             </p>
           </div>
           <div>
             <p className='text-lg'>
-              Ich bin 25 Jahre alt und befinde mich aktuell in einer Umschulung zum 
-              Fachinformatiker für Anwendungsentwicklung. Meine Leidenschaft gilt der 
-              Softwareentwicklung, besonders in den Bereichen Webentwicklung und 
-              Game Development.
+              Aktuell mache ich eine Umschulung zum Fachinformatiker für
+              Anwendungsentwicklung. Mein Schwerpunkt liegt auf C# und .NET.
+              Dabei beschäftige ich mich mit Webanwendungen, REST APIs und
+              relationalen Datenbanken.
             </p>
             <p className='text-lg mt-4'>
-              In meiner Freizeit entwickle ich Websites mit modernen Technologien wie 
-              React und TailwindCSS, erstelle Spiele in Unity3D oder arbeite an 
-              verschiedenen anderen Projekten. Ich bin motiviert, lernbereit und zielorientiert 
-              und suche aktuell ein Praktikum im Raum Minden.
+              In eigenen Projekten vertiefe ich meine Kenntnisse in ASP.NET Core,
+              Entity Framework Core und SQL. In meiner Freizeit beschäftige ich
+              mich außerdem mit der Spieleentwicklung in Unity3D und probiere eigene
+              Spielideen aus.
             </p>
           </div>
         </div>
