@@ -1,19 +1,20 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaPython, FaGitAlt, FaGithub, FaDatabase } from 'react-icons/fa';
-import { SiTailwindcss, SiLua } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaDatabase, FaServer } from 'react-icons/fa';
+import { SiDotnet, SiUnity, SiBlender } from 'react-icons/si';
 import { TbBrandCSharp } from 'react-icons/tb';
 
 const Skills = () => {
   const skills = [
-  { id: 1, name: 'C#', icon: <TbBrandCSharp size={50} />, color: 'text-purple-500' },
-  { id: 2, name: '.NET / ASP.NET Core', icon: <SiDotnet size={50} />, color: 'text-violet-500' },
-  { id: 3, name: 'Entity Framework Core', icon: <FaDatabase size={50} />, color: 'text-purple-400' },
-  { id: 4, name: 'SQL Server / SQLite', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
-  { id: 5, name: 'REST APIs', icon: <FaServer size={50} />, color: 'text-emerald-500' },
-  { id: 6, name: 'HTML', icon: <FaHtml5 size={50} />, color: 'text-orange-500' },
-  { id: 7, name: 'CSS', icon: <FaCss3Alt size={50} />, color: 'text-blue-500' },
-];
-
+    { id: 1, name: 'C#', icon: <TbBrandCSharp size={50} />, color: 'text-purple-500' },
+    { id: 2, name: '.NET / ASP.NET Core', icon: <SiDotnet size={50} />, color: 'text-violet-500' },
+    { id: 3, name: 'Entity Framework Core', icon: <FaDatabase size={50} />, color: 'text-purple-400' },
+    { id: 4, name: 'SQL Server / SQLite', icon: <FaDatabase size={50} />, color: 'text-sky-500' },
+    { id: 5, name: 'REST APIs', icon: <FaServer size={50} />, color: 'text-emerald-500' },
+    { id: 6, name: 'HTML', icon: <FaHtml5 size={50} />, color: 'text-orange-500' },
+    { id: 7, name: 'CSS', icon: <FaCss3Alt size={50} />, color: 'text-blue-500' },
+    { id: 8, name: 'Unity', icon: <SiUnity size={50} />, color: 'text-gray-300' },
+    { id: 9, name: 'Blender', icon: <SiBlender size={50} />, color: 'text-orange-500' },
+  ];
   return (
     <div name='skills' className='w-full min-h-screen bg-slate-900 text-gray-300'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
