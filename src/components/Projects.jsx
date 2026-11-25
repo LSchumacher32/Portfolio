@@ -20,6 +20,14 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: 'SafeVault',
+      description: 'Webanwendung mit Benutzerregistrierung und Anmeldung über ASP.NET Core Identity. Eingabevalidierung, parametrisierte Datenbankabfragen und automatisierte Tests zum Schutz vor SQL-Injection und Cross-Site-Scripting.',
+      tech: ['C#', '.NET 10', 'ASP.NET Core Razor Pages', 'ASP.NET Core Identity', 'EF Core', 'SQL Server'],
+      github: 'https://github.com/LSchumacher32/SafeVault',
+      demo: '#',
+    },
+    {
+      id: 3,
       title: 'Mein Portfolio',
       description: 'Modernes, responsives Portfolio mit React und Vite',
       tech: ['React', 'Vite', 'TailwindCSS', 'Web3Forms'],
